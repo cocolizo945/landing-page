@@ -1,0 +1,22 @@
+.container-foot{
+    background: linear-gradient(180deg, rgba(4,2,6,0) 10%,  rgba(4,2,6,1) 20%);
+    height: 50vh;
+    color: #FFF;
+    text-align: left;
+}
+
+.bigtext-foot{
+    justify-self: left;
+    padding-top: 15vh;
+    font-family: 'Jost', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    position: absolute;
+    left: 100px;
+}
+
+.text-foot{
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}

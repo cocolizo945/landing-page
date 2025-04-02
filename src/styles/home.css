@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.Container{
+    margin-top: 5%;
+    position: relative;
+    
+    width: 150vh;
+   
+}
+
+.title-home{
+    font-family: 'Jost', sans-serif;
+    font-size: 120px;
+    font-weight: 600;
+    line-height: 1;
+    text-align: left;
+}
+
+.subtitle-home{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    text-align: left;
+    margin-top: -5%;
+}
+.photo {
+    position: relative;
+    margin-top: -37%;
+    margin-right: -65%;
+    height: 600px;
+    width: 600px;
+    transform: rotate(15deg); /* Mejor usar `transform` en lugar de `rotate` */
+    filter: drop-shadow(-28px 0px 80px #6f277d);
+}
+
+.arrow{
+    padding-top: 3%;
+}
+
+.animated-button {
+    position: relative;
+    background: linear-gradient(110deg, #2d1033, #5b3a82);
+    border: none;
+    padding: 5px 25px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    font-family: "Jost", sans-serif;
+    border-radius: 25px;
+    background-size: 200% 200%;
+    animation: gradient 5s ease infinite alternate;
+    -webkit-box-shadow: 0px 0px 4px #a79db1;
+    -moz-box-shadow: 0px 0px 4px #a79db1;
+    box-shadow: 0px 0px 4px #a79db1;    
+    right: 86vh;
+}
+
+.border-button{
+    display: flex;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    width: 10vh;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 25px;
+    border: 2px solid #0000;
+    border-radius: 25px;
+    background: linear-gradient(#131219, #131219) padding-box, 
+    linear-gradient(0deg, white, white) border-box;
+    transition: background 0.3s ease-in-out;
+    background: linear-gradient(rgb(19, 18, 25), rgb(19, 18, 25)) padding-box, 
+                linear-gradient(var(--angle), #8A2A99, #375CB8) border-box;
+    animation: rotate 12s linear infinite;
+
+}
+.partners-container{
+    padding-top: 10%;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    
+
+}
+
+.some-text{
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    margin-bottom: 1%;
+}
+
+.logos-partners ul {
+    display: flex; /* Asegura que los elementos estén en línea */
+    justify-content: center; /* Centra los logos */
+    align-items: center; /* Alinea verticalmente */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.logos-partners li {
+    padding: 0 1.5rem; /* Espaciado entre logos */
+    position: relative;
+}
+
+/* Agregar la línea vertical entre elementos */
+.logos-partners li:not(:first-child) {
+    border-left: 2px solid rgba(255, 255, 255, 0.3); /* Línea delgada y sutil */
+}
+
+.gradient-text {
+    background: linear-gradient(to right, blue, purple , blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .first-line {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 80px;
+    display: block;
+  }
+  
+  .second-line {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-weight: 600;
+    font-size: 80px;
+    display: block;
+  }
+.about-us{
+    height: 300vh;
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+@keyframes rotate {
+    to {
+      --angle: 360deg;
+    }
+  }
+  
+  @property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.nav{
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.9px);
+    -webkit-backdrop-filter: blur(7.9px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding:  0 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.nav a {
+    color: #FFF;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    padding: .25rem;
+}
+
+.nav ul {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    margin-right: 3rem;
+    list-style: none;
+    display: flex;
+}
+.nav a:hover{
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0 0px 15px rgba(178, 126, 214, 0.712);
+}
+
+.site-title{
+    font-family: 'Jost', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
