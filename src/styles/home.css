@@ -22,11 +22,11 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
     text-align: left;
-    margin-top: -5%;
-}
+    margin-top: -3%;
+  }
 .photo {
     position: relative;
-    margin-top: -37%;
+    margin-top: -25%;
     margin-right: -65%;
     height: 600px;
     width: 600px;
@@ -42,8 +42,9 @@
     position: relative;
     background: linear-gradient(110deg, #2d1033, #5b3a82);
     border: none;
+    margin-top: -10px;
     padding: 5px 25px;
-    font-size: 16px;
+    font-size: 26px;
     color: white;
     cursor: pointer;
     font-family: "Jost", sans-serif;
@@ -61,8 +62,8 @@
     color: white;
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
-    width: 10vh;
-    font-size: 16px;
+    width: fit-content;
+    font-size: 24px;
     justify-content: center;
     align-items: center;
     padding: 9px 25px;
@@ -135,7 +136,10 @@
     display: block;
   }
 .about-us{
-    height: 300vh;
+    margin-top:15vh;
+    font-family: "Montserrat", sans-serif;
+    font-size: 45px;
+    text-justify:distribute-all-lines;
 }
 
 

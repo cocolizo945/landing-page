@@ -38,8 +38,17 @@ export default function Home(){
             About us
             </div>
             <div><b>Our mission is to empower business</b> with <br/>innovate, reliable, and scalable technology
-             <br/>solutions thath drive grwoth, efficiency, and success.</div>
+             <br/>solutions thath drive grwoth, efficiency, and <br/>success.</div>
         </div>
+        <div className="about-us">
+        <div class="border-button" onClick={() => {console.log("holaaa")}}>
+            What we offer
+            </div>
+            <div><b>Our mission is to empower business</b> with <br/>innovate, reliable, and scalable technology
+             <br/>solutions thath drive grwoth, efficiency, and <br/>success.</div>
+        </div>
+        
+        
 
     </div>
     )
