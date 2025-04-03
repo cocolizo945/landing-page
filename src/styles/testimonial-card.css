@@ -1,0 +1,29 @@
+.container-testimonial{
+    margin-top: 5vh;
+    width: 23vw;
+    
+}
+
+.title-testimonial{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    margin-bottom: 2vh;
+}
+
+.content-testimonial{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    text-align: left;
+    height: 25vh;
+}
+
+hr {
+    border: none;
+    background: #fff;
+    height: 1px;
+  }

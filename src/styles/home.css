@@ -142,6 +142,35 @@
     text-justify:distribute-all-lines;
 }
 
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card-container > *:nth-child(4) {
+    margin-left: 15vw;
+    align-self: center;
+}
+
+.card-container > *:nth-child(5) {
+    margin-right: 15vw;
+    align-self: center;
+}
+
+
+#unique-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 1fr 2fr;
+    justify-items: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    width: 100%;
+    max-width: 100%; /* Se asegura de que no se extienda más allá del contenedor */
+
+}
+
+
 
 @keyframes gradient {
     0% {

@@ -3,6 +3,12 @@
     height: 50vh;
     color: #FFF;
     text-align: left;
+    display: flex;
+}
+.left-side{
+    margin-top: 3vh;
+    margin-left: 15vw;
+    width: 21vw;
 }
 
 .bigtext-foot{
@@ -11,12 +17,37 @@
     font-family: 'Jost', sans-serif;
     font-size: 50px;
     font-weight: 600;
-    position: absolute;
-    left: 100px;
 }
 
 .text-foot{
     font-family: "Montserrat", sans-serif;
     font-size: 25px;
     font-weight: 300;
+}
+.right-side{
+    width: 21vw;
+    margin-top: 15vh;
+}
+
+.right-side h2{
+    font-weight: 200;
+}
+
+.right-side ul {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    margin-right: 3rem;
+    list-style: none;
+}
+
+.right-side li {
+    align-items: center;
+    margin-bottom: vh;
+    display: flex;
+    font-size: 20px;
+    padding: 0.5vh;
+    margin-right: 3rem;
+    list-style: none;
 }

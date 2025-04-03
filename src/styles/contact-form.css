@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.contact-container{
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+    display: flex;
+    justify-content: space-between; /* Alinea los elementos a los extremos */
+    gap: 2rem; /* Añade espacio entre los elementos */
+    padding: 2rem;
+}
+
+.contact-data {
+    flex: 1; /* Toma el 50% del espacio disponible */
+    max-width: 50%; /* Asegura que no se expanda más allá del 50% */
+    text-align: left;
+}
+
+.contact-form {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width:30vw ;
+    margin: 0 auto;
+}
+
+.instructions {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.text br {
+    margin-bottom: 0.5rem; /* Espacio entre las líneas de dirección */
+}
+
+.form-group {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.form-group label {
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem; /* Cambia el tamaño de las etiquetas */
+    font-family: 'Verdana', sans-serif; /* Cambia la fuente de las etiquetas */
+    margin-right: 1vw;
+}
+
+.name-lastname {
+    text-align: left;
+    display: flex;
+    gap: 1rem;
+}
+
+.name-lastname div {
+    flex: 1;
+}
+
+input,
+textarea {
+    color: #fff;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    background: rgb(118,118,118);
+    background: linear-gradient(90deg, rgba(118,118,118,0.500437675070028) 20%, rgba(220,220,220,0.7161239495798319) 65%);
+    backdrop-filter: blur(100%); /* Agrega el blur */
+    -webkit-backdrop-filter: blur(8px); /* Soporte para Safari */
+}
+
+button {
+    background: linear-gradient(110deg, #2d1033, #5b3a82);
+    border: none;
+    margin-top: -10px;
+    padding: 5px 25px;
+    font-size: 26px;
+    color: white;
+    cursor: pointer;
+    font-family: "Jost", sans-serif;
+    border-radius: 25px;
+    background-size: 200% 200%;
+    animation: gradient 5s ease infinite alternate;
+    -webkit-box-shadow: 0px 0px 4px #a79db1;
+    -moz-box-shadow: 0px 0px 4px #a79db1;
+    box-shadow: 0px 0px 4px #a79db1;    
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
